@@ -1,0 +1,10 @@
+build/
+.xmake/
+.DS_Store
+.vscode/
+.idea/
+*.log
+compile_commands.json
+*.tmp
+*.swp
+.cache/

@@ -1,0 +1,37 @@
+---
+Language: Cpp
+Standard: Latest
+BasedOnStyle: LLVM
+
+IndentWidth: 2
+ContinuationIndentWidth: 2
+UseTab: Never
+
+ColumnLimit: 80
+PenaltyExcessCharacter: 1000000
+
+BreakBeforeBraces: Attach
+
+NamespaceIndentation: None
+FixNamespaceComments: true
+
+PointerAlignment: Right
+ReferenceAlignment: Pointer
+
+AccessModifierOffset: -2
+
+SpaceBeforeParens: ControlStatements
+
+SpacesInAngles: Never
+
+IncludeBlocks: Preserve
+SortIncludes:
+  Enabled: true
+SortUsingDeclarations: true
+
+AllowShortFunctionsOnASingleLine: All
+AllowShortLambdasOnASingleLine: All
+
+PackConstructorInitializers: BinPack
+
+AlignConsecutiveAssignments: false
